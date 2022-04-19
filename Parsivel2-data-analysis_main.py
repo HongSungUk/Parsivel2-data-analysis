@@ -68,7 +68,7 @@ def pars_db(file_path):
     return db_rain
 
 # Data input
-path = 'C:\\Users\\Hong Sung Uk\\Desktop\\10mm\\Area A'
+path = 'C:\\Users\\Desktop\\10mm\\Area A' ## YOU MUST CHANGE DATA PATH ##
 file_list = glob.glob(path + '\\**', recursive=False)
 
 ## Integrate raw data for each file
