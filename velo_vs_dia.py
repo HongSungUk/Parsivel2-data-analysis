@@ -112,11 +112,11 @@ rc('font', family=font_name)
 
 ## Graph (average velocity vs particle diameter)
 plt.figure(num=None,  dpi=500, facecolor='w', edgecolor='k') 
-plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\10mm\\Area A'), label = "10 mm/h") 
-plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\20mm\\Area A'), label = "20 mm/h") 
-plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\30mm\\Area A'), label = "30 mm/h") 
-plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\40mm\\Area A'), label = "40 mm/h")  
-plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\50mm\\Area A'), label = "50 mm/h") 
+plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\10mm\\Area A'), label = "10 mm/h")  ## YOU MUST CHANGE DATA PATH ##
+plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\20mm\\Area A'), label = "20 mm/h")  ## YOU MUST CHANGE DATA PATH ##
+plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\30mm\\Area A'), label = "30 mm/h")  ## YOU MUST CHANGE DATA PATH ##
+plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\40mm\\Area A'), label = "40 mm/h")  ## YOU MUST CHANGE DATA PATH ##
+plt.plot(particle_diameter, velo_dia_grap('C:\\Users\\50mm\\Area A'), label = "50 mm/h")  ## YOU MUST CHANGE DATA PATH ##
     
 plt.plot(particle_diameter, velo_reg_eq.T, label = "Edward, 2002", linestyle = 'dashed', color = 'black')
 plt.ylabel('Velocity (m/s)')
